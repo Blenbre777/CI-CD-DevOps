@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
-@RestController // Json , Ajax 기반으로 사용하겠다는 소리 
+@RestController
 public class CICDCont {
   // http://localhost:9091/cicd?sw=1
   // http://localhost:9091/cicd?sw=-1
@@ -25,7 +25,11 @@ public class CICDCont {
     } else if (sw == 0) {
       msg = "/cide 호출됨, warn 로그";
       log.warn(msg);
+    } else if (sw == 2) {
+      msg = "/cide workflow 테스트";
+      log.info(msg);
     }
+
     
     return "<h3>" + msg + "</h3>";
   }
