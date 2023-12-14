@@ -31,6 +31,6 @@ public class CICDCont {
     }
 
     
-    return "<h3>" + msg + "</h3>" + "CI/CD 테스트";
+    return "<h3>" + msg + "</h3>" + "CI/CD 2차 테스트";
   }
 }
