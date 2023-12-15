@@ -54,12 +54,12 @@
 
 # 관련 가상환경에 package 설치
 
-| 순서 | 패키지 | 명령어 |
-|-----|---------|------------|
-| 1   | 가상환경 변경 | `(base) ubuntu@ip-###-##-#-##:~$ conda activate ai` |
-| 2   | Tensorflow | `(ai) ubuntu@ip-###-##-#-##:~$ pip install tensorflow==2.8.2` |
-| 3   | Django | `(ai) ubuntu@ip-###-##-#-##:~$ pip install django==3.2.13` |
-| 4   | Django-cors-headers | `(ai) ubuntu@ip-###-##-#-##:~$ pip install django-cors-headers` |
-| 5   | OpenCV | `(ai) ubuntu@ip-###-##-#-##:~$ pip install opencv-python` |
-| 6   | pymysql | `(ai) ubuntu@ip-###-##-#-##:~$ pip install pymysql` |
-| 7   | konlpy | `(ai) ubuntu@ip-###-##-#-##:~$ pip install konlpy` |
+| 순서 | 패키지 | 명령어 | 용도 |
+|-----|---------|------------|---------|
+| 1   | 가상환경 변경 | `(base) ubuntu@ip-###-##-#-##:~$ conda activate ai` | - |
+| 2   | Tensorflow | `(ai) ubuntu@ip-###-##-#-##:~$ pip install tensorflow==2.8.2` | 데이터 모델 제작 |
+| 3   | Django | `(ai) ubuntu@ip-###-##-#-##:~$ pip install django==3.2.13` | 서버 |
+| 4   | Django-cors-headers | `(ai) ubuntu@ip-###-##-#-##:~$ pip install django-cors-headers` | Ajax 통신 |
+| 5   | OpenCV | `(ai) ubuntu@ip-###-##-#-##:~$ pip install opencv-python` | 텍스트 데이터 처리 및 분석|
+| 6   | pymysql | `(ai) ubuntu@ip-###-##-#-##:~$ pip install pymysql` | Oracle SQL |
+| 7   | konlpy | `(ai) ubuntu@ip-###-##-#-##:~$ pip install konlpy` | 형태소 분석 |
