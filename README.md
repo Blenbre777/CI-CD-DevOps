@@ -61,5 +61,7 @@
 | 3   | Django | `(ai) ubuntu@ip-###-##-#-##:~$ pip install django==3.2.13` | 서버 |
 | 4   | Django-cors-headers | `(ai) ubuntu@ip-###-##-#-##:~$ pip install django-cors-headers` | Ajax 통신 |
 | 5   | OpenCV | `(ai) ubuntu@ip-###-##-#-##:~$ pip install opencv-python` | 텍스트 데이터 처리 및 분석|
-| 6   | pymysql | `(ai) ubuntu@ip-###-##-#-##:~$ pip install pymysql` | Oracle SQL |
+| 6   | pymysql | `(ai) ubuntu@ip-###-##-#-##:~$ pip install pymysql` | MySQL DB 상호작용 |
 | 7   | konlpy | `(ai) ubuntu@ip-###-##-#-##:~$ pip install konlpy` | 형태소 분석 |
+| 8   | Orcale | `(ai) C:\Windows\system32>conda install cx_oracle` | python Oracle | 
+| 9   | sqlalchemy | `(ai) C:\Windows\system32>conda install sqlalchemy` | Python DB 상호작용 |
